@@ -86,7 +86,7 @@ function AppShell() {
 
 export default function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename={import.meta.env.BASE_URL.slice(0, -1) || '/'}>
       <CartProvider>
         <AppShell />
       </CartProvider>
