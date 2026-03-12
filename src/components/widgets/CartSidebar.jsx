@@ -40,8 +40,8 @@ export default function CartSidebar() {
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ type: 'spring', stiffness: 320, damping: 32 }}
-            className="fixed top-0 right-0 h-full z-[90] flex flex-col sidebar-scroll overflow-y-auto w-full sm:w-[400px]"
-            style={{ background: '#ffffff', borderLeft: '1px solid rgba(124,58,237,0.12)' }}
+            className="fixed top-[44px] right-0 z-[90] flex flex-col sidebar-scroll overflow-y-auto w-full sm:w-[400px]"
+            style={{ height: 'calc(100vh - 44px)', background: '#ffffff', borderLeft: '1px solid rgba(124,58,237,0.12)' }}
           >
             {/* Header */}
             <div

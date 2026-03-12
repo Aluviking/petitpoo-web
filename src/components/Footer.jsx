@@ -23,7 +23,7 @@ export default function Footer() {
           <div>
             <a href="#inicio" className="inline-block mb-4 hover:opacity-80 transition-opacity">
               <img
-                src="/logo.jpeg"
+                src={import.meta.env.BASE_URL + 'logo.jpeg'}
                 alt="petit poo"
                 className="h-16 w-auto"
                 style={{ borderRadius: '10px' }}

@@ -218,7 +218,7 @@ export default function ChatBot() {
             initial={{ opacity: 0, y: 6 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2.4 }}
-            className="absolute bottom-12 left-0 whitespace-nowrap bg-white text-[#270566] text-xs font-bold px-3 py-1.5 rounded-full shadow-lg pointer-events-none"
+            className="absolute left-12 top-1/2 -translate-y-1/2 whitespace-nowrap bg-white text-[#270566] text-xs font-bold px-3 py-1.5 rounded-full shadow-lg pointer-events-none"
             style={{ boxShadow: '0 4px 16px rgba(39,5,102,0.15)' }}
           >
             Te ayudamos a elegir

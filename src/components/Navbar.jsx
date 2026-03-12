@@ -171,7 +171,7 @@ export default function Navbar() {
             aria-label="petit poo — inicio"
           >
             <img
-              src="/logo.jpeg"
+              src={import.meta.env.BASE_URL + 'logo.jpeg'}
               alt="petit poo logo"
               className="h-10 w-auto shrink-0"
               style={{ borderRadius: '8px' }}
